@@ -1,8 +1,10 @@
 <template>
   <v-content>
        <tabs/>
+       <tabstwo/>
         <car/>
-      <Grid/>
+         <card/>
+         <card two/>
     </v-content>
 </template>
 <style> 

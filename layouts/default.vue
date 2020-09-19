@@ -3,25 +3,27 @@
   <v-app id="inspire">
     
     <!--Header -->
-    <v-app-bar color="black" dark fixed app>
+    <v-app-bar color="white" light fixed app>
     <!-- v-toolbar-title>Application</v-toolbar-title -->
        <!-- Component Example -->
       <logo/>
+      <tab/>
+    
+
     </v-app-bar>
 
     <!-- Body -->
-    <v-content light>
+    <v-content dark>
       <nuxt /> 
-    </v-content>
+     </v-content>
     
     <!-- Footer -->
-    <v-footer color="indigo" app>
+    <v-footer color="#0160B0" app>
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
 
   </v-app>
 </template>
-
 <script>
 export default {}
 </script>
