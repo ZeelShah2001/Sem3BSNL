@@ -1,10 +1,11 @@
 <template>
   <div>
-    <tabtwo/>
+    <tab/>
+    <changeregion/>
 
    <breadcrump/>
-   <butt/>
-   <v-container class="grey lighten-5">
+ 
+<v-container class="white">
      <v-content>
     <v-row align="end">
       <v-col offset-md="1">
@@ -12,18 +13,19 @@
       </v-col>
       </v-row>  
      </v-content>
+     <guidelines/>
 
-   <v-container class="grey lighten-5">
+   <v-container class="white">
 
    <v-content>
     <v-row align="end">
       <v-col offset-md="1">
       <h1> Numbers Available 7735 </h1>
-      <butttwo/>
+      <filter/>
     </v-col>
       </v-row>  
-      <gtwo/>
-      <buttun/>
+      <cymn/>
+      <fillapplication/>
 
     </v-content>
    </v-container>

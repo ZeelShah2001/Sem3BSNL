@@ -7,7 +7,9 @@
     <!-- v-toolbar-title>Application</v-toolbar-title -->
        <!-- Component Example -->
       <logo/>
-      <tab/>
+      <search/>
+      <tabtwo/>
+      
     
 
     </v-app-bar>
@@ -18,6 +20,9 @@
      </v-content>
     
     <!-- Footer -->
+    <v-content dark>
+      <footertab/>
+      </v-content>
     <v-footer color="#0160B0" app>
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>

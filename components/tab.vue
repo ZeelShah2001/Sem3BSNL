@@ -1,28 +1,63 @@
 <template>
-<v-tabs color="#0160B0"
-  background-color="white"
-  font= "Gotham">
-    <v-tab>Prepaid</v-tab>
-    <v-tab>Postpaid</v-tab>
-    <v-tab>Fiber and WiFi</v-tab>
-    <v-tab>Customize Number</v-tab>
-    
-    <v-row align="end">
-      <v-col offset-md="6"
->
-    <v-text-field centered="true"
-            hide-details
-            width= "10"
-            height="20" 
-            label="Filled" 
-            placeholder="Search" 
-            filled 
-            rounded 
-            dense 
-            single-line 
-            append-icon="mdi-magnify" class="shrink">
-    </v-text-field>
-     </v-col>
-   </v-row>
-  </v-tabs>
+    <div >
+      <!-- The purpose was to hide the tabs and change according to what you select. -->
+  
+    <v-tabs
+          v-model="tab"
+      light
+   background-color="white"
+    color="blue"
+    md="4"
+    sm="2"
+    xs="2"
+    >
+      <v-tab 
+        v-for="item in items"
+        :key="item.tab"
+      >
+        {{ item.tab }}
+      </v-tab>
+    </v-tabs>
+
+
+    <v-tabs-items v-model="tab">
+      <v-tab-item 
+        v-for="item in items"
+        :key="item.tab"
+      >
+
+      <v-row>
+        <v-app-bar width="1920" dense color="#015FAF"  flat tile>
+        
+  <v-btn text>{{item.button}} </v-btn>
+  <v-btn text>{{item.button1}} </v-btn>
+  <v-btn text>{{item.button2}} </v-btn>
+        
+  <v-btn text>{{item.button3}} </v-btn> 
+  <v-btn text>{{item.button4}} </v-btn>
+  <v-btn text>{{item.button5}} </v-btn>
+ 
+        </v-app-bar> </v-row>
+      </v-tab-item>
+    </v-tabs-items>
+   
+  </div>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        tab: null
+        ,
+        items: [
+          { tab: 'PREPAID', button: 'Recharge', button1:'Prepaid to Postpaid',button2:'Roaming',button3: 'International Roaming', button4:'Upgrade',button5:'View Plans ' },
+          { tab: 'POSTPAID', button: 'Pay Bills', button1:'Roaming',button2:'International Roaming', button3: 'View Plans' },
+          { tab: 'FIBER & WIFI', button: 'Why Bharat Fiber?', button1:'Check Locality',button2:'View Plans' },
+          { tab: 'CUSTOMIZE NUMBER', button: 'Vanity Numbers', button1:'Fancy Numbers',button2:'Choose your Mobile Number (CYMN)'},
+          
+        ],
+      }
+    },
+  }
+</script>

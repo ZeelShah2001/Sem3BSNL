@@ -1,14 +1,14 @@
 <template>
-  <v-breadcrumbs :items="items">
-    <template v-slot:item="{ item }">
-      <v-breadcrumbs-item
-        :href="item.href"
-        :enabled="item.enabled"
-      >
-        {{ item.text.toUpperCase() }}
-      </v-breadcrumbs-item>
-    </template>
-  </v-breadcrumbs>
+  <div>
+    <v-breadcrumbs :items="items">
+      <template v-slot:divider>
+        <v-icon>mdi-forward</v-icon>
+      </template>
+    </v-breadcrumbs>
+    
+
+    
+  </div>
 </template>
 
 <script>
@@ -19,7 +19,6 @@
           text: 'Home',
           disabled: false,
           href: 'breadcrumbs_dashboard',
-         
         },
         {
           text: 'Customize Number',
@@ -31,12 +30,13 @@
           disabled: false,
           href: 'breadcrumbs_link_1',
         },
-        
-         {
+        {
           text: 'Fill Application',
           disabled: false,
           href: 'breadcrumbs_link_1',
         },
+        
+        
       ],
     }),
   }
