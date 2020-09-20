@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <!-- The footer navigation pops only when you reach the bottom -->
+    <!--  -->
    
     <v-chip
     
