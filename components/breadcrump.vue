@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-breadcrumbs :items="items">
+    <v-breadcrumbs :items="items" light>
       <template v-slot:divider>
         <v-icon>mdi-forward</v-icon>
       </template>
