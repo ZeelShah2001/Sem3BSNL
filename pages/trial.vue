@@ -25,6 +25,9 @@
       <v-col md="1">
       <h2> NumbersAvailable </h2>
      </v-col>
+     <v-col>
+       <startswith/>
+     </v-col>
       </v-row>  
        <filter/>
       <cymnthree/>
