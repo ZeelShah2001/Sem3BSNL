@@ -1,31 +1,38 @@
 <template>
   <div>
     <tab/>
-    <cr2/>
+    <changeregion/>
+    
+  
 
    <breadcrump/>
+  
  
 <v-container class="white">
      <v-content>
     <v-row align="end">
-      <v-col offset-md="1">
-      <h1> Guidelines: </h1>
+      <v-col md="1">
+      <h2> Guidelines: </h2 >
       </v-col>
       </v-row>  
+     <guidetwo/>
      </v-content>
-     <guidelines/>
 
    <v-container class="white">
 
    <v-content>
     <v-row align="end">
-      <v-col offset-md="1">
-      <h1> Numbers Available 7735 </h1>
-      <butttwo/>
-    </v-col>
+      <v-col md="1">
+      <h2> NumbersAvailable </h2>
+     </v-col>
+     <v-col>
+       <startswith/>
+     </v-col>
       </v-row>  
-      <cymn/>
-      <buttun/>
+       <filter/>
+      <cymnthree/>
+      <fillapplication/>
+    
 
     </v-content>
    </v-container>
