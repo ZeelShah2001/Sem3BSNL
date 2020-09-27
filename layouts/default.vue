@@ -8,7 +8,8 @@
        <!-- Component Example -->
       <logo/>
       <search/>
-      <tabtwo/>
+      <corcar/>
+      <relog/>
       
     
 
@@ -16,6 +17,7 @@
 
     <!-- Body -->
     <v-content dark>
+      <hamburg/>
       <nuxt /> 
      </v-content>
     
@@ -24,7 +26,7 @@
       <footertab/>
       </v-content>
     <v-footer color="#0160B0" app>
-      <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
+      <span class="#0160B0">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
 
   </v-app>

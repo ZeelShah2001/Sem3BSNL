@@ -1,7 +1,9 @@
 <template>
   <v-tabs color="white"
   background-color="#0160B0"
-  font= "Gotham">
+  font= "Gotham"
+  class="hidden-xs-only">
+
     <v-tab>HELP</v-tab>
     <v-tab>SITEMAP</v-tab>
     <v-tab>PREPAID</v-tab>

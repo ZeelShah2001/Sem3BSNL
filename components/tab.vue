@@ -1,9 +1,9 @@
 <template>
     <div >
-      <v-col class= ‘’ col-md-9 col-xs-1”>
+      <v-col>
       <!-- The purpose was to hide the tabs and change according to what you select. -->
   
-    <v-tabs
+    <v-tabs class= "hidden-xs-only"
           v-model="tab"
       light
    background-color="white"

@@ -1,10 +1,8 @@
 <template>
-
-    
-    <v-row align="end">
-      <v-col offset-md="6"
+<v-col align="end">
+      <v-col offset-md="10"
       sm="4"
-      md="6"
+      md="2"
       >
     <v-text-field centered="true"
             hide-details
@@ -19,6 +17,6 @@
             append-icon="mdi-magnify" class="shrink">
     </v-text-field>
      </v-col>
-   </v-row>
+</v-col>
 
 </template>
