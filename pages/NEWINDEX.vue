@@ -10,12 +10,13 @@
  
 <v-container class="white">
      <v-content>
-    <v-row align="end">
+    <v-row align="end" >
       <v-col md="1">
-      <h2> Guidelines: </h2 >
+      <h1 style="color:#0161b0;"> 
+        Guidelines: </h1  >
       </v-col>
       </v-row>  
-     <guidetwo/>
+     <guidelines/>
      </v-content>
 
    <v-container class="white">
@@ -23,14 +24,14 @@
    <v-content>
     <v-row align="end">
       <v-col md="1">
-      <h2> NumbersAvailable </h2>
+      <h1 style="color:#0161b0;"> NumbersAvailable </h1>
      </v-col>
      <v-col>
        <startswith/>
      </v-col>
       </v-row>  
        <filter/>
-      <cymnthree/>
+      <cymn/>
       <fillapplication/>
     
 
