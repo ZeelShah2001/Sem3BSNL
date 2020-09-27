@@ -1,5 +1,6 @@
 <template>
     <div >
+      <v-col class= ‘’ col-md-9 col-xs-1”>
       <!-- The purpose was to hide the tabs and change according to what you select. -->
   
     <v-tabs
@@ -40,7 +41,7 @@
         </v-app-bar> </v-row>
       </v-tab-item>
     </v-tabs-items>
-   
+      </v-col> 
   </div>
 </template>
 

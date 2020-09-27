@@ -10,9 +10,10 @@
  
 <v-container class="white">
      <v-content>
-    <v-row align="end">
+    <v-row align="end" >
       <v-col md="1">
-      <h2> Guidelines: </h2 >
+      <h1 color="#0161b0"> 
+        Guidelines: </h1  >
       </v-col>
       </v-row>  
      <guidetwo/>
@@ -23,7 +24,7 @@
    <v-content>
     <v-row align="end">
       <v-col md="1">
-      <h2> NumbersAvailable </h2>
+      <h1> NumbersAvailable </h1>
      </v-col>
      <v-col>
        <startswith/>

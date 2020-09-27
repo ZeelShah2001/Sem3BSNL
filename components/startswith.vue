@@ -1,6 +1,6 @@
 <template>
-  <div class="text-left">
-    <v-btn rounded color="#EA2424" 
+  <div class="text-right">
+    <v-btn rounded color="#0161b0" 
     class="ml-10 mt-5"
     dark>filter</v-btn>
   </div>
