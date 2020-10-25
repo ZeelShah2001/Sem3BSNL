@@ -10,8 +10,8 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "node-gyp": "^7.1.0",
-    "nuxt": "^2.14.4",
+    "node-gyp": "^7.1.2",
+    "nuxt": "^2.14.7",
     "react-scripts": "^2.1.8",
     "vue-csv-import": "^3.3.5"
   },
