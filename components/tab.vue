@@ -1,8 +1,11 @@
 <template>
-    <div >
-      <!-- The purpose was to hide the tabs and change according to what you select. -->
+    <div style="font-family:Futura Std, sans-serif">
+      <!-- The purpose was to hide the tabs and change the option according to the selection made. It leads you further to the
+      task that lead you further -->
   
     <v-tabs
+    class="hidden-xs-only"
+
           v-model="tab"
       light
    background-color="white"
@@ -20,7 +23,7 @@
     </v-tabs>
 
 
-    <v-tabs-items v-model="tab">
+    <v-tabs-items v-model="tab" class="hidden-xs-only">
       <v-tab-item 
         v-for="item in items"
         :key="item.tab"

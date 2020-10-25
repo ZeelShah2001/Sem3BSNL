@@ -1,8 +1,9 @@
 <template>
-  <div>
+<!-- This is a way to show the user on what step they are on -->
+  <div style="font-family:Futura Lt Bt, sans-serif">
     <v-breadcrumbs :items="items" light>
       <template v-slot:divider>
-        <v-icon>mdi-forward</v-icon>
+        <v-icon>mdi-chevron-right</v-icon>
       </template>
     </v-breadcrumbs>
     
@@ -13,31 +14,31 @@
 
 <script>
   export default {
-    data: () => ({
-      items: [
-        {
-          text: 'Home',
-          disabled: false,
-          href: 'breadcrumbs_dashboard',
-        },
-        {
-          text: 'Customize Number',
-          disabled: false,
-          href: 'breadcrumbs_link_1',
-        },
-        {
-          text: 'CYMN',
-          disabled: false,
-          href: 'breadcrumbs_link_1',
-        },
-        {
-          text: 'Fill Application',
-          disabled: false,
-          href: 'breadcrumbs_link_1',
-        },
-        
-        
-      ],
-    }),
+    data: () => {
+      return ({
+        items: [
+          {
+            text: 'Home',
+            disabled: false,
+            
+          },
+          {
+            text: 'Customize Number',
+            disabled: false,
+           
+          },
+          {
+            text: 'CYMN',
+            disabled: false,
+            href: 'breadcrumbs_dashboard',
+          },
+          {
+            text: 'Fill Application',
+            disabled: false,
+           
+          },
+        ],
+      })
+    },
   }
 </script>

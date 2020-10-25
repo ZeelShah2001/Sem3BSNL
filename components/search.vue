@@ -1,24 +1,15 @@
 <template>
-
-    
-    <v-row align="end">
-      <v-col offset-md="6"
-      sm="4"
-      md="6"
-      >
-    <v-text-field centered="true"
-            hide-details
-            width= "5"
-            height="5" 
+<v-row  justify="end" class="  col-md-2 col-xs-1 col-sm-2">
+          <v-text-field centered="true"
+            hide-details 
             label="Filled" 
             placeholder="Search" 
             filled 
             rounded 
             dense 
             single-line 
-            append-icon="mdi-magnify" class="shrink">
-    </v-text-field>
-     </v-col>
-   </v-row>
+            append-icon="mdi-magnify" class="hidden-xs-only">
+         </v-text-field>
+       </v-row>
 
 </template>

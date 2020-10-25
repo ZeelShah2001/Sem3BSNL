@@ -1,9 +1,8 @@
 <template>
   <img
-    class="BSNLLOGO"
+    class="BSNLLOGO margin-right:50px;" 
     alt="HOME"
-    src="bsnllogo.png"
-  >
+    src="bsnllogo.png" >
 </template>
 
 <style>

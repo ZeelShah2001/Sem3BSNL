@@ -1,11 +1,15 @@
 <template>
   <div>
     <tab/>
+    <dialog/>
     <changeregion/>
     
   
 
    <breadcrump/>
+   <pagination/>
+   <startswith/>
+   <filterlist/>
   
  
 <v-container class="white">
@@ -16,7 +20,7 @@
       </v-col>
       </v-row>  
      </v-content>
-     <guidelines/>
+   
 
    <v-container class="white">
 
@@ -29,6 +33,7 @@
       </v-row>  
       <cymn/>
       <fillapplication/>
+      <dialog/>
 
     </v-content>
    </v-container>

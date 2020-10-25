@@ -1,6 +1,6 @@
 <template>
   <v-tabs color="white"
-  background-color="#0160B0"
+  background-color="#0160B0" style="font-family:Futura Std, sans-serif"
   font= "Gotham">
     <v-tab>HELP</v-tab>
     <v-tab>SITEMAP</v-tab>
