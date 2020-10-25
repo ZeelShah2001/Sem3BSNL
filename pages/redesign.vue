@@ -10,25 +10,30 @@
  
 <v-container class="white">
      <v-content>
-    <v-row align="end">
-      <v-col offset-md="1">
-      <h1> Guidelines: </h1>
+    <v-row align="end" >
+      <v-col md="1">
+      <h1 style="color:#0161b0;"> 
+        Guidelines: </h1  >
       </v-col>
       </v-row>  
-     </v-content>
      <guidelines/>
+     </v-content>
 
    <v-container class="white">
 
    <v-content>
     <v-row align="end">
-      <v-col offset-md="1">
-      <h1> Numbers Available 7735 </h1>
-      <filter/>
-    </v-col>
+      <v-col md="1">
+      <h1 style="color:#0161b0;"> NumbersAvailable </h1>
+     </v-col>
+     <v-col>
+       <startswith/>
+     </v-col>
       </v-row>  
+       <filter/>
       <cymn/>
       <fillapplication/>
+    
 
     </v-content>
    </v-container>
