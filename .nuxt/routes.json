@@ -1,0 +1,37 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "D:\\\\SEM 3\\\\TI 3\\\\webdev-starter-materialUI\\\\Sem3BSNL\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_37f72170"
+  },
+  {
+    "name": "NEWINDEX",
+    "path": "/NEWINDEX",
+    "component": "D:\\\\SEM 3\\\\TI 3\\\\webdev-starter-materialUI\\\\Sem3BSNL\\\\pages\\\\NEWINDEX.vue",
+    "chunkName": "pages/NEWINDEX",
+    "_name": "_2590638c"
+  },
+  {
+    "name": "offset",
+    "path": "/offset",
+    "component": "D:\\\\SEM 3\\\\TI 3\\\\webdev-starter-materialUI\\\\Sem3BSNL\\\\pages\\\\offset.vue",
+    "chunkName": "pages/offset",
+    "_name": "_4316f626"
+  },
+  {
+    "name": "redesign",
+    "path": "/redesign",
+    "component": "D:\\\\SEM 3\\\\TI 3\\\\webdev-starter-materialUI\\\\Sem3BSNL\\\\pages\\\\redesign.vue",
+    "chunkName": "pages/redesign",
+    "_name": "_5a65b68b"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\SEM 3\\\\TI 3\\\\webdev-starter-materialUI\\\\Sem3BSNL\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2ad042e8"
+  }
+]
