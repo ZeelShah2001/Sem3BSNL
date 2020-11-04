@@ -139,7 +139,7 @@
                     color="#D9262C"
                   
                     style="font-family:futura std"
-                    @click="check; $router.push('respons')"
+                    @click="check; $router.push('confirmation')"
                     >
                     SUMBIT
                   </v-btn>
