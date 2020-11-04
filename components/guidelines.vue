@@ -1,9 +1,9 @@
 <template>
 <!-- They show the the users the guidelines that needs to be read by the users before heading forward so they know what to do and expect -->
   <v-card
-    class="mx-xs-auto"
+    class="mx-10 mt-auto "
     max-width="1500"
-    height="400"
+    max-height="800"
     color="#0161b0"
   >
     <v-card-text 

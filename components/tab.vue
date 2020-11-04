@@ -9,7 +9,7 @@
           v-model="tab"
       light
    background-color="white"
-    color="blue"
+    color="#0160B0"
     md="4"
     sm="2"
     xs="2"
